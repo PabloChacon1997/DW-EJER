@@ -1,0 +1,26 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 320px;
+}
+li a{
+	display: block;
+	color: white;
+	font-size: x-large;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-align: center;
+}
+li a:hover{
+	background-color: blue;
+	color: white;
+}
+body{
+	background-color: DarkCyan;
+}
+
+h1{
+	color: DarkTurquoise;
+	text-align: center;
+}

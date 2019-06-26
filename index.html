@@ -2,8 +2,18 @@
 <html>
 <head>
 	<title>Prácticas HTML</title>
+	<meta charset="utf-8">
 </head>
-<body>
-
-</body>
+<frameset cols="25%,*" frameborder="0" framespacing="0" border="0">
+        <!--Frame izquierda -->
+        <frame src="BarraNavegacion.html" name="navegacion"><!--Frame derecha es otro frame -->
+            <!--Este frame tiene dos renglones -->
+            <frameset>
+                <!--frame inferior -->
+                <frame src="Inicio.html" name="contenido">
+            </frameset>      
+            <noframes>
+                Esta pagina no pudo mostrar frames
+            </noframes>
+    </frameset>       
 </html>
